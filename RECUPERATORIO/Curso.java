@@ -33,8 +33,14 @@ public class Curso {
         return unidadesTematicas;
     }
 
-   public void agregarUnidadTematica(UnidadTematica unidad){
-    unidadesTematicas.add(unidad);
+   public UnidadTematica(String titulo, String descripcion){
+        this.titulo = titulo;
+        this.descripcion = descripcion;
+   }
+
+   @Override
+   public String toString() {
+       return titulo + ": " + descripcion;
    }
 
     

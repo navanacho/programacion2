@@ -24,7 +24,4 @@ public class UnidadTematica {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-
-    
-
 }
